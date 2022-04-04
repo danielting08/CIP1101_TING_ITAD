@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="urf-8">
+    <head>
+        <base target="newSpace">
+        <title>Front Page </title>
+        <script language="JavaScript">
+            function writeText(txt){
+                document.getElementById("desc").innerHTML=txt;
+            }
+            function dissolveText(txt){
+                document.getElementById("desc").innerHTML=txt;
+            }
+        </script>
+        <style>
+            body {
+                margin: 10px;
+                background-color: gray;
+            }
+            h1{
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 50px;
+                color: white;
+                text-align: center;
+            }
+            p#desc{
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                font-size: 20px;
+                color: white;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>WORLD MAP</h1>
+        <br>
+        <div align="center">
+            <p><a href="LandingPage.html" class="name">Home</a></p>
+            <img src="Front Page Paint.png" usemap="#Front Page">
+            <map name="Front Page">
+                <area shape="rect" coords="21,37,379,280" href="JAPAN.html" onMouseover="writeText('JAPAN');" onmouseout="dissolveText('');">
+                <area shape="rect" coords="97,332,348,712" href="USA.html" onMouseover="writeText('USA');" onmouseout="dissolveText('');">
+                <area shape="rect" coords="157,794,491,1022" href="ITALY.html" onMouseover="writeText('ITALY');" onmouseout="dissolveText('');">
+                <area shape="rect" coords="1443,240,1872,506" href="PHILIPPINES.html" onMouseover="writeText('PHILIPPINES');" onmouseout="dissolveText('');">
+                <area shape="rect" coords="1441,616,1868,889" href="CHINA.html" onMouseover="writeText('CHINA');" onmouseout="dissolveText('');">
+            </map>
+            <p id="desc"></p>
+        </div>
+    </body>
+</html>

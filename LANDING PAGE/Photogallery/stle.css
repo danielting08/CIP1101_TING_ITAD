@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 40px 20px 0 20px;
+}
+
+.heading{
+  width: 50%;
+  padding-bottom: 50px;
+}
+.heading h3{
+  font-size: 3em;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #222;
+}
+
+.heading h3 span{
+  font-weight: 100;
+}
+.box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ }
+
+.box .dream{
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.box .dream img{
+  width: 100%;
+  padding-bottom: 15px;
+  border-radius: 5px;
+}
+
+.Drawings{
+  text-decoration: none; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  color: black;
+}
+
+.name{
+  text-decoration: none; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  color: black;
+}
+
+.Top{
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+}

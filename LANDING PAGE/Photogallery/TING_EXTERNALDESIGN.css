@@ -1,0 +1,35 @@
+body{
+    background-color:#e2ecdd;
+    font-family:Verdana, Tahoma, Sans-serif;
+    color:#043927;
+}
+h1{
+    text-align:center;
+    font-family:Rockwell, 'Bookman Old Style', serif;
+    font-size:3em;
+    background-color:#93c4b2;
+    color:white;
+    text-transform:uppercase;
+    word-spacing:30px;
+    text-shadow: 5px 5px 6px rgb(131, 133, 131);
+}
+p{
+    text-align:justify;
+    font-size:18px;
+    text-indent:70px;
+    line-height:30px;
+    word-spacing:8px;
+    text-transform:d
+}
+a{
+    text-decoration:none;
+    font-weight:bold;
+    font-style:oblique;
+}
+img{
+    width: 250px;
+    height: 200px;
+    vertical-align:middle;
+    margin-right:10px;
+    border-radius: 30px;
+    }
